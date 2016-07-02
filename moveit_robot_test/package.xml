@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>moveit_robot_test</name>
+  <version>0.0.1</version>
+  <description><p>Test suite for MoveIt!-based robots.</p>
+    <p>As of July 2016 this only contains tests for dual-arm robots.</p>
+  </description>  
+  <maintainer email="130s@2000.jukuin.keio.ac.jp">Isaac I. Y. Saito</maintainer>
+  <author email="iiysaito@opensource-robotics.tokyo.jp">Isaac I. Y. Saito</author>
+  <license>Apache2.0</license>
+  <url type="website">http://wiki.ros.org/moveit_robot_test</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <test_depend>moveit_ros_move_group</test_depend>
+  <test_depend>rostest</test_depend>
+  <test_depend>srdfdom</test_depend>
+
+  <export />
+</package>
